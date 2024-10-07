@@ -5,4 +5,4 @@ Instale as Bibliotecas usadas:
 
 `pip install requests schedule mysql-connector-python`
 
-Lembre-se de executar o cron a cada 5 min para evitar sobrecarga no servidor do TabNews.
+*O código usa a biblioteca Schedule para gerenciar as requests e seu tempo. não sendo necessário usar cronjobs.*
